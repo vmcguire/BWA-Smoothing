@@ -1,7 +1,7 @@
-# BWA-Smoothing — read before doing anything
+# BWA-Smooth — read before doing anything
 
-> ✅ **This is the CANONICAL home for BWA-Smoothing.** All serious DSP, IP, and
-> process for this plugin live **here**, in `~/Developer/BWA-Smoothing/`. Author here — always.
+> ✅ **This is the CANONICAL home for BWA-Smooth.** All serious DSP, IP, and
+> process for this plugin live **here**, in `~/Developer/BWA-Smooth/`. Author here — always.
 >
 > The `bwa-fx-ecosystem` monorepo is **NOT** a second source of truth for this
 > plugin — it is only a build/assembly workspace that gives **BWA-Mix** the slice
@@ -26,12 +26,12 @@
 
 Full row in
 [`MARKET-PAIN-AND-ATTACKS.md`](https://github.com/vmcguire/BWA-Architecture/blob/main/docs/MARKET-PAIN-AND-ATTACKS.md)
-— search for `BWA-Smoothing`.
+— search for `BWA-Smooth`.
 
 ## Before you write code — the canonical guides (single source of truth)
 
 > These are maintained in **one place** so they stay correct as the ecosystem
-> changes. This file deliberately holds only what is specific to BWA-Smoothing; every
+> changes. This file deliberately holds only what is specific to BWA-Smooth; every
 > general rule — required reading, what to reuse, what to publish, the
 > anti-patterns, the done-checklist, the release ritual — lives in the docs
 > below. Do not re-derive a rule that isn't here; look it up there.
@@ -41,7 +41,7 @@ Read in order (all under `~/Developer/BWA-Architecture/`):
 1. **`docs/LLM-ONBOARDING.md`** — thesis, 6-category taxonomy, locked decisions, anti-patterns. **Read first.**
 2. **`docs/REUSE-MAP.md`** — what already exists and where. Reuse, never rebuild (band split, meters, Metal, widgets, brand theme, constants).
 3. **`docs/PLUGIN-AUTHORING.md`** — the build drill: dev surface, dual-surface contract, **what you must publish for other workers**, the done-checklist, the release ritual.
-4. **`docs/MARKET-PAIN-AND-ATTACKS.md`** — the row for **BWA-Smoothing**; internalize the pain + attack before any DSP.
+4. **`docs/MARKET-PAIN-AND-ATTACKS.md`** — the row for **BWA-Smooth**; internalize the pain + attack before any DSP.
 
 (On GitHub: browse these under `vmcguire/BWA-Architecture/docs/`.)
 
@@ -53,5 +53,5 @@ This repo is canonical — release straight from it. After the release commit on
 git push origin main
 ```
 
-Then cut a GitHub Release here (`vmcguire/BWA-Smoothing`) and attach the notarized `BWA-Smoothing.vst3`.
+Then cut a GitHub Release here (`vmcguire/BWA-Smooth`) and attach the notarized `BWA-Smooth.vst3`.
 No `git subtree push` from the monorepo — that flow is retired. See `docs/PLUGIN-AUTHORING.md §7`.

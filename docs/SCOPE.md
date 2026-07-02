@@ -1,17 +1,17 @@
-# BWA-Smoothing — Scope / Role
+# BWA-Smooth — Scope / Role
 
-DRI: **BWA-Smoothing Dev**
+DRI: **BWA-Smooth Dev**
 Product: the **anti-Soothe** — per-Bark-band dynamic **resonance suppression** with **G+B+A scope**
 ("smooth band 18–22 across all vocals" from one instance; Soothe needs one per track).
 Status: scope authored 2026-07-01 (**DR-033**). **Thin standalone over Engine slot-21; standalone-first, Mix-cell already native.**
-SoW: `../BWA-Architecture/docs/SOW/bwa-smoothing.md`.
+SoW: `../BWA-Architecture/docs/SOW/bwa-smooth.md`.
 
 > ⚠️ **Supersedes the stub `CLAUDE.md`'s "author canonical `dsp/` here."** This plugin has **no private `dsp/`**
 > (DR-033). Its DSP is **Engine slot-21** (`FxChainSlot::Smoothness`, the per-band spectral ceiling inside the
 > Mix-authored **PolyphaseConvolver**), consumed via the Engine C-ABI. **Never fork the splitter.**
 
 ## What I own (the one home)
-- The **BWA-Smoothing standalone VST3** — the product surface: the transparency-first UI (per-band suppression
+- The **BWA-Smooth standalone VST3** — the product surface: the transparency-first UI (per-band suppression
   **paint** + the live **X-ray suppression-activity view** + the **G+B+A scope** switch), the plugin's
   parameter/state model, presets.
 - **Wiring slot-21** — driving Engine's per-band `Smoothness` [0..1] write and reading back band peak/RMS analysis

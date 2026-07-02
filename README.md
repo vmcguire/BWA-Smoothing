@@ -1,4 +1,4 @@
-# BWA-Smoothing
+# BWA-Smooth
 
 Per-Bark-band dynamic resonance suppression with scope. Kills Soothe's instance-per-track workflow.
 
@@ -9,7 +9,7 @@ Per-Bark-band dynamic resonance suppression with scope. Kills Soothe's instance-
 
 ## What this is
 
-BWA-Smoothing kills Soothe ($199 + instance-per-track). Per-band resonance detection + dynamic suppression. X-ray shows suppression activity per band over time.
+BWA-Smooth kills Soothe ($199 + instance-per-track). Per-band resonance detection + dynamic suppression. X-ray shows suppression activity per band over time.
 
 G+B+A flagship: 'Smooth band 18-22 across all vocals' from one instance — Soothe needs an instance per track to do what we do in one.
 
@@ -26,7 +26,7 @@ specifically:
 
 ## How this fits with the rest of BWA
 
-BWA-Smoothing ships on **two surfaces** — same DSP, different UI:
+BWA-Smooth ships on **two surfaces** — same DSP, different UI:
 
 1. **Standalone VST3** — drops into any DAW like a FabFilter / iZotope plugin.
    That's what this repo releases.
@@ -44,7 +44,7 @@ fixed everywhere.
 ## Releases
 
 Versioned `.vst3` builds for macOS land in this repo's
-[Releases](https://github.com/vmcguire/BWA-Smoothing/releases). Build from
+[Releases](https://github.com/vmcguire/BWA-Smooth/releases). Build from
 source if you want — see `CLAUDE.md` for the dev surface (it's not this repo).
 
 ## License

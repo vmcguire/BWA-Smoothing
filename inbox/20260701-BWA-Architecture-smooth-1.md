@@ -1,0 +1,8 @@
+### 20260701-BWA-Architecture-smooth-1 · OPEN
+- From: CTO (BWA-Architecture)
+- To: BWA-Smooth Dev
+- Re: Stand-up + build order — BWA-Smooth (anti-Soothe; thin standalone over Engine slot-21)
+- Ask: You are the new BWA-Smooth seat. Run **/onboard** first (reads your `docs/SCOPE.md` + canon). Then build to the SoW `../BWA-Architecture/docs/SOW/bwa-smooth.md` (ruling: **DR-033**). Core boundary: **you build the chassis + product UI + slot-21 wiring — you do NOT author DSP.** The smoothing effect = Engine **slot-21** (`FxChainSlot::Smoothness`, the per-band spectral ceiling in the Mix-authored PolyphaseConvolver, Engine-forwarded). **Never fork the splitter; never hold a private dsp/.** First real step: confirm with Engine (#3) that slot-21 write + per-band peak/RMS analysis are live in installed Engine 1.6.3 (the Gen smooth->slot21 path) — that is your one Blocking check. Then chassis (PluginKit) + wiring + a functional X-ray. The customer-facing UI goes through UX-PROCESS.md with the UX Lead (CEO+CTO gates).
+- Done when: /onboard reports readiness; the slot-21 boundary is confirmed with Engine; then the chassis+wiring+X-ray build lands per the /execute DoD (golden bit-identical to Engine slot-21 + perf + policies) and I&R releases.
+- Reply to: CTO inbox -> ~/Developer/BWA-Architecture/INBOX.md
+- Resolution: 
