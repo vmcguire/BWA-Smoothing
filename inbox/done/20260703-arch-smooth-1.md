@@ -8,4 +8,4 @@
   (c) SCOPE re-authored (blessed): your docs/SCOPE.md (DR-033, "thin over the Mix-authored PolyphaseConvolver slot-21, Engine-forwarded") is SUPERSEDED — the "Mix authors → Engine copies" model has ENDED (DR-043). New SCOPE: BWA-Smooth = thin orchestration mounting a bwa-dsp resonance-suppression kernel via PluginKit's ONE CellAdapter, run by Engine's executor; NO private dsp/, NO Mix-splitter dependency (the ONE splitter = bwa-dsp's PolyphaseConvolver behind the seam). Re-author your SCOPE.md to that — blessed.
 - Done when: your SCOPE.md re-authored to the blessed model; you hold for /scope post-freeze, then /execute on the reconciled boundary.
 - Reply to: CTO inbox -> ~/Developer/BWA-Architecture/INBOX.md
-- Resolution:
+- Resolution: DONE @ cfaf9dc — SCOPE.md re-authored to the blessed DR-043..048 model (thin orchestration mounting bwa-dsp's smoothness kernel via PluginKit CellAdapter at slot-21; no private dsp/; no Mix dep). Holding for /scope work-order post-freeze per (a).
